@@ -27,7 +27,7 @@ const App = props => {
             />
 
             {/* a route for the about us page */}
-            <Route path="/" element={<About />} />
+            <Route path="/about-us" element={<About />} />
           </Routes>
         </main>
         <Footer />
