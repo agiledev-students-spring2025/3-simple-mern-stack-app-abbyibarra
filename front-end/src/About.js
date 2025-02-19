@@ -27,7 +27,7 @@ const About = props => {
         <>
             <h1>{aboutContent.title}</h1>
             <p>{aboutContent.bio}</p>
-            <img src={aboutContent.image} alt="About Me" style={{ maxWidth: '100%', height: 'auto' }} />
+            <img src={aboutContent.image} alt="headshot of me" style={{ maxWidth: '25%', height: 'auto' }} />
         </>
     )
 }
